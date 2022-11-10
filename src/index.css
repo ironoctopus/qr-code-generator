@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(62, 171, 214);
+  color: rgb(89, 50, 15);
+}
+
+.app {
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 249, 249);
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: rgb(187, 31, 65);
+  font-size: 1.5rem;
+  line-height: 1;
+  text-shadow: 1px 1px 1px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
